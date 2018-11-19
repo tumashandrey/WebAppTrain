@@ -1,5 +1,5 @@
 class Train < ApplicationRecord
-  #validates :number, presence: true
+  validates :number, presence: true
   #указываем в модели свзяь в единстенном числе с
   #кем будем связываться поезд пренадлжеит станции
   #рельсы будут знать что trains свзязанны с railway_station

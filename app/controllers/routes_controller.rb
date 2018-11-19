@@ -1,5 +1,4 @@
 class RoutesController < ApplicationController
-  class routesController < ApplicationController
     before_action :set_route, only: [:show, :edit, :update, :destroy]
 
     # GET /routes
@@ -73,5 +72,3 @@ class RoutesController < ApplicationController
         params.require(:route).permit(:name)
       end
   end
-
-end
